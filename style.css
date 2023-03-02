@@ -1,0 +1,95 @@
+*
+ { margin:0px;
+   padding:0px; 
+
+  }
+ header
+  {
+    height:150px;
+    background-color:lightgreen;
+	border:1px solid green;
+	display:flex;
+	text-align:center;
+	line-height:130px;
+	
+   }
+img
+   {
+	 width:100%;
+	 
+	
+   }
+.name 
+  {
+	width: 70%;
+	
+    }
+.log
+   { 
+      width:30%;
+	  height:50px;
+   }
+ .log button
+ {
+	height:40px;
+	width:80px;
+	border-radius:15px;
+	background-color:yellow;
+	font-size:15px;
+	font-family:Georgia, serif;
+ }
+ 
+nav
+ {
+	height:100px;
+	background-color:black;
+ }
+ 
+ .main
+ {
+	 list-style:none;
+	 display:flex;
+	 padding:30px;
+	
+}
+.main .mainlist
+ {
+	 text-decoration:none;
+	 margin:15px;
+	 font-size:20px;
+	
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+a:hover
+{
+	color:yellow;
+}
+.sub
+{
+	line-height:30px;
+	margin-top:30px;
+	list-style:none;
+	visibility:hidden;
+}
+.sub:hover
+{
+	color:#0000FF;
+}
+.mainlist:hover .sublist
+{
+	visibility:visible;
+}
+section
+{
+	height:auto;
+	width:80%;
+	margin-top:30px;
+	margin-left:50%;
+    
+	
+	
+}
